@@ -1,0 +1,9 @@
+# Ignore all __pycache__ directories
+__pycache__/
+*.pyc
+
+# Ignore everything under app/data/raw
+src/data/raw/
+
+# Ignore env folder
+env/

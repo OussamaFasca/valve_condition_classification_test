@@ -1,0 +1,5 @@
+RAW_DATA_PATH = './src/data/raw/'
+PROCESSED_DATASET_PATH = './src/data/merged_dataset/dataset.feather'
+SCALER_MODEL_PATH = './src/saved_models/scaler.pkl'
+#CLASSIFIER_PATH = './src/saved_models/rf_classifier.pkl'
+CLASSIFIER_PATH = './src/saved_models/lr_classifier.pkl'
