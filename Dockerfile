@@ -11,4 +11,6 @@ RUN pylint --fail-under 5 ./src
 # Runing unit tests
 RUN pytest src/tests/
 
+EXPOSE 8000
+
 CMD ["fastapi","run","src/main.py"]
